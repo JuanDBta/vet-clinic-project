@@ -69,7 +69,7 @@
 
 > Add a link to your deployed project.
 
-- [Coming Soon...](<replace-with-your-deployment-URL>)
+- [Coming Soon...](https://github.com/JuanDBta/vet-clinic-project)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -84,7 +84,6 @@ In order to run this project you need:
 Web Browser (Chrome recommended)<br>
 Code editor (VS recommended)<br>
 GitHub account<br>
-Node.js environment
 
 ### Setup
 
