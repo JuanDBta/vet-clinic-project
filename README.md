@@ -52,15 +52,11 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Add data.sql]**
+- **[Add queries.sql]**
+- **[Add schema.sql]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
@@ -101,7 +97,7 @@ Install this project executing the following command:
 
 ### Usage
 
-To run the project, go to /met-art-app directory and execute the following command:
+To run the project, go to /vet-clinic-project directory and execute the following command:
 
 ```sh
 npm start
@@ -120,8 +116,6 @@ npm run test
 You can deploy this project using:<br>[Coming Soon!!!](https://met-app.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -143,8 +137,6 @@ You can deploy this project using:<br>[Coming Soon!!!](https://met-app.onrender.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
-
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
@@ -165,13 +157,13 @@ If you like this project, please give me a like, it doesn't cost you anything an
 
 I would like to thank Bee in Student Success who is always avalaible to solve issues and Microverse for push us to work hard every day!
 
+For this project I used this template provided by Microverse (https://github.com/microverseinc/curriculum-template-databases)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
 
 ## ❓ FAQ <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
 
 - **[Question_1]**
 
