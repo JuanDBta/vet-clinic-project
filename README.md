@@ -38,6 +38,9 @@
 
 ## 🛠 Built With <a name="built-with"></a>
 
+1- PostgreSQL<br>
+2- Gitflow
+
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
