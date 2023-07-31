@@ -44,6 +44,13 @@
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://www.microverse.org/">Microverse</a></li>
+  </ul>
+</details>
+
+<details>
 <summary>Database</summary>
   <ul>
     <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
@@ -165,13 +172,13 @@ For this project I used this template provided by Microverse (https://github.com
 
 ## ❓ FAQ <a name="faq"></a>
 
-- **[Question_1]**
+- **["How can I see more projects associated with this?"]**
 
-  - [Answer_1]
+  - [Check my GitHub profile](https://github.com/JuanDBta)
 
-- **[Question_2]**
+- **[How can I contact the author of this project?]**
 
-  - [Answer_2]
+  - [Check my LinkedIn profile](https://linkedin.com/in/simplebet/) or email me at simplebetsas@gmail.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
