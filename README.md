@@ -148,13 +148,13 @@ For this project I used this template provided by Microverse (https://github.com
 
 ## ❓ FAQ <a name="faq"></a>
 
-- **["How can I see more projects associated with this?"]**
+- **["How can I see more projects associated with this author?"]**
 
-  - [Check my GitHub profile](https://github.com/JuanDBta)
+  - Check my [GitHub profile](https://github.com/JuanDBta)
 
 - **[How can I contact the author of this project?]**
 
-  - [Check my LinkedIn profile](https://linkedin.com/in/simplebet/) or email me at simplebetsas@gmail.com
+  - Check my [LinkedIn profile](https://linkedin.com/in/simplebet/) or email me at simplebetsas@gmail.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -163,3 +163,4 @@ For this project I used this template provided by Microverse (https://github.com
 This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+ 
