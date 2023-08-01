@@ -63,6 +63,7 @@
 - **[Add queries.sql]**
 - **[Add schema.sql]**
 - **[Animals table]**
+- **[Query and update animals table]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -114,9 +115,10 @@ You can deploy this project using:<br>[Coming Soon!!!](https://github.com/JuanDB
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[Query and update animals table]**
 - [ ] **[Query multiple tables]**
-- [ ] **["join table" for visits.]**
+- [ ] **["join table" for visits]**
+- [ ] **[Database performance audit]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
