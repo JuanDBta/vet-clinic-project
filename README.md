@@ -2,7 +2,7 @@
 
 <div align="center">
  
-  <img src="" alt="logo" width="200"  height="auto">
+  <img src="./Felicia.jpg" alt="logo" width="200"  height="auto">
   <br/>
 
   <h3><b>VET CLINIC PROJECT</b></h3>
@@ -62,6 +62,7 @@
 - **[Add data.sql]**
 - **[Add queries.sql]**
 - **[Add schema.sql]**
+- **[Animals table]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -93,33 +94,9 @@ Clone this repository to your desired folder:
   cd my-folder
   git clone "https://github.com/JuanDBta/vet-clinic-project.git"
 ```
-### Install
-
-Install this project executing the following command:
-
-```sh
-  npm install
-```
-
-### Usage
-
-To run the project, go to /vet-clinic-project directory and execute the following command:
-
-```sh
-npm start
-```
-
-### Run Tests
-
-To run the test, execute the following command:
-
-```sh
-npm run test
-```
-
 ### Deployment
 
-You can deploy this project using:<br>[Coming Soon!!!](https://met-app.onrender.com/)
+You can deploy this project using:<br>[Coming Soon!!!](https://github.com/JuanDBta/vet-clinic-project)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -137,9 +114,9 @@ You can deploy this project using:<br>[Coming Soon!!!](https://met-app.onrender.
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[Query and update animals table]**
+- [ ] **[Query multiple tables]**
+- [ ] **["join table" for visits.]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -171,13 +148,13 @@ For this project I used this template provided by Microverse (https://github.com
 
 ## ❓ FAQ <a name="faq"></a>
 
-- **["How can I see more projects associated with this?"]**
+- **["How can I see more projects associated with this author?"]**
 
-  - [Check my GitHub profile](https://github.com/JuanDBta)
+  - Check my [GitHub profile](https://github.com/JuanDBta)
 
 - **[How can I contact the author of this project?]**
 
-  - [Check my LinkedIn profile](https://linkedin.com/in/simplebet/) or email me at simplebetsas@gmail.com
+  - Check my [LinkedIn profile](https://linkedin.com/in/simplebet/) or email me at simplebetsas@gmail.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -186,3 +163,4 @@ For this project I used this template provided by Microverse (https://github.com
 This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+ 
