@@ -8,3 +8,10 @@
  SELECT * FROM animals WHERE neutered = true;
  SELECT * FROM animals WHERE name <> 'Gabumon';
  SELECT * FROM animals WHERE weight_kg BETWEEN 10.4 AND 17.3;
+ UPDATE animals SET species = 'digimon' WHERE name LIKE '%mon';
+ UPDATE animals SET species = 'pokemon' WHERE species IS NULL;
+ DELETE FROM animals WHERE date_of_birth > '2022-01-01';
+ UPDATE animals SET weight_kg = weight_kg * -1;
+ UPDATE animals SET weight_kg = weight_kg * -1 WHERE weight_kg < 0;
+
+
