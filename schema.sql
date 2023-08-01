@@ -2,12 +2,28 @@
 
 CREATE TABLE animals (
    
-  id INTEGER PRIMARY KEY,
+  id SERIAL PRIMARY KEY,
   name TEXT,
   date_of_birth DATE,
   escape_attempts INTEGER,
   neutered BOOLEAN,
   weight_kg DECIMAL,
-  species TEXT
+  species_id TEXT,
+  owner_id TEXT
+  
+); 
+
+CREATE TABLE owners (
+   
+  id SERIAL PRIMARY KEY,
+  full_name TEXT,
+  age DATE,
+  
+); 
+
+CREATE TABLE species (
+   
+  id SERIAL PRIMARY KEY,
+  name TEXT
   
 ); 
