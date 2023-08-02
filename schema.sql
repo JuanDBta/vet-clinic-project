@@ -34,6 +34,20 @@ age: INTEGER,
 date_of_graduation: DATE
 );
 
+CREATE TABLE specializations (
+  vet_id INTEGER REFERENCES NOT NULL vets(id),
+  species_id INTEGER REFERENCES NOT NULL species(id),
+  PRIMARY KEY (vet_id, species_id)
+);
+
+CREATE TABLE visits (
+  vet_id INTEGER REFERENCES NOT NULL vets(id),
+  animal_id INTEGER REFERENCES NOT NULL animals(id),
+  visit_date DATE,
+  PRIMARY KEY (vet_id, animal_id)
+);
+
+
 /*Add a column species of type string to your animals table*/
 ALTER TABLE animals ADD COLUMN species TEXT;
 
