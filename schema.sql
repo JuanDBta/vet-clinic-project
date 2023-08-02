@@ -2,7 +2,7 @@
 
 CREATE TABLE owners (
    
-  id SERIAL PRIMARY KEY NOT NULL,
+  id SERIAL PRIMARY KEY,
   full_name TEXT,
   age DATE,
   
@@ -10,7 +10,7 @@ CREATE TABLE owners (
 
 CREATE TABLE species (
    
-  id SERIAL PRIMARY KEY NOT NULL,
+  id SERIAL PRIMARY KEY,
   name TEXT
   
 );
@@ -46,4 +46,10 @@ ADD CONSTRAINT fk_species_id FOREIGN KEY (species_id) REFERENCES species(id);
 ALTER TABLE animals ADD COLUMN owner_id INTEGER;
 ADD CONSTRAINT fk_owner_id FOREIGN KEY (owner_id) REFERENCES owners(id);
 
+/*Modify id column in species table to set NOT NULL*/
+ALTER TABLE species
+ALTER COLUMN id SET NOT NULL;
 
+/*Modify id column in owners table to set NOT NULL*/
+ALTER TABLE owners
+ALTER COLUMN id SET NOT NULL;
