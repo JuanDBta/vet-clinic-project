@@ -32,19 +32,24 @@ id SERIAL PRIMARY KEY NOT NULL,
 name TEXT, 
 age INTEGER,
 date_of_graduation DATE
+
 );
 
 CREATE TABLE specializations (
-  vet_id INTEGER REFERENCES NOT NULL vets(id),
-  species_id INTEGER REFERENCES NOT NULL species(id),
+
+  vet_id INTEGER REFERENCES  vets(id) NOT NULL,
+  species_id INTEGER REFERENCES species(id) NOT NULL,
   PRIMARY KEY (vet_id, species_id)
+
 );
 
 CREATE TABLE visits (
-  vet_id INTEGER REFERENCES NOT NULL vets(id),
-  animal_id INTEGER REFERENCES NOT NULL animals(id),
+
+  vet_id INTEGER REFERENCES vets(id) NOT NULL,
+  animal_id INTEGER REFERENCES animals(id) NOT NULL,
   visit_date DATE,
   PRIMARY KEY (vet_id, animal_id)
+
 );
 
 
