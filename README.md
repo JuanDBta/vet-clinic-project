@@ -34,7 +34,7 @@
 
 # 📖 [VET CLINIC PROJECT] <a name="about-project"></a>
 
-**[VET CLINIC PROJECT]** is a relational database to create the data structure for a vet clinic. It is a complete database with data about: animals animals' owners clinic employees visits Apart from building data structure, there are tasks that require SQL queries to answer specific questions.
+**[VET CLINIC PROJECT]** is a relational database to create the data structure for a vet clinic. It is a complete database with data about: animals, animal's owners, clinic employees, visits. Apart from building data structure, there are tasks that require SQL queries to answer specific questions.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -63,7 +63,12 @@
 - **[Add queries.sql]**
 - **[Add schema.sql]**
 - **[Animals table]**
+- **[Vets table]**
+- **[Specializations table]**
+- **[Visits table]**
 - **[Query and update animals table]**
+- **[Query multiple tables]**
+- **["join table" for visits]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -113,12 +118,7 @@ You can deploy this project using:<br>[Coming Soon!!!](https://github.com/JuanDB
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[Query multiple tables]**
-- [ ] **["join table" for visits]**
 - [ ] **[Database performance audit]**
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -129,8 +129,6 @@ Contributions, issues, and feature requests are welcome!
 Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
@@ -145,8 +143,6 @@ I would like to thank Bee in Student Success who is always avalaible to solve is
 For this project I used this template provided by Microverse (https://github.com/microverseinc/curriculum-template-databases)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
 
 ## ❓ FAQ <a name="faq"></a>
 
