@@ -61,3 +61,28 @@ UPDATE animals
 SET owner_id = (SELECT id FROM owners WHERE full_name = 'Dean Winchester')
 WHERE name IN ('Angemon', 'Boarmon');
 
+/*Insert data for vets*/
+INSERT INTO vets (name, age, date_of_graduation)
+VALUES ('William Tatcher', 45, '2000-04-23');
+
+INSERT INTO vets (name, age, date_of_graduation)
+VALUES ('Maisy Smith', 26, '2019-01-17');
+
+INSERT INTO vets (name, age, date_of_graduation)
+VALUES ('Stephanie Mendez', 64, '1981-05-04');
+
+INSERT INTO vets (name, age, date_of_graduation)
+VALUES ('Jack Harkness', 38, '2008-06-08');
+
+/*Insert specialization for vets*/
+INSERT INTO specializations (vet_id, species_id)
+VALUES ((SELECT id FROM vets WHERE name = 'William Tatcher'), 1);
+
+INSERT INTO specializations (vet_id, species_id)
+VALUES ((SELECT id FROM vets WHERE name = 'Stephanie Mendez'), 2);
+
+INSERT INTO specializations (vet_id, species_id)
+VALUES ((SELECT id FROM vets WHERE name = 'Stephanie Mendez'), 1);
+
+INSERT INTO specializations (vet_id, species_id)
+VALUES ((SELECT id FROM vets WHERE name = 'Jack Harkness'), 2);
