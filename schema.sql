@@ -17,14 +17,22 @@ CREATE TABLE species (
 
 CREATE TABLE animals (
    
-  id INTEGER PRIMARY,
+  id INTEGER PRIMARY KEY,
   name TEXT,
   date_of_birth DATE,
   escape_attempts INTEGER,
   neutered BOOLEAN,
-  weight_kg DECIMAL,
+  weight_kg DECIMAL
   
 ); 
+
+CREATE TABLE vets (
+
+id SERIAL PRIMARY KEY NOT NULL,
+name TEXT, 
+age: INTEGER,
+date_of_graduation: DATE
+);
 
 /*Add a column species of type string to your animals table*/
 ALTER TABLE animals ADD COLUMN species TEXT;
