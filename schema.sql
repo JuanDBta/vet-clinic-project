@@ -17,19 +17,23 @@ CREATE TABLE species (
 
 CREATE TABLE animals (
    
-  id SERIAL PRIMARY KEY NOT NULL,
+  id INTEGER PRIMARY,
   name TEXT,
   date_of_birth DATE,
   escape_attempts INTEGER,
   neutered BOOLEAN,
   weight_kg DECIMAL,
-  species TEXT
   
 ); 
+
+/*Add a column species of type string to your animals table*/
+ALTER TABLE animals ADD COLUMN species TEXT;
+
+
 /* Modify animals table:
 Make sure that id is set as autoincremented PRIMARY KEY */
 ALTER TABLE animals DROP id;
-ALTER TABLE animals ADD COLUMN id SERIAL PRIMARY KEY;
+ALTER TABLE animals ADD COLUMN id SERIAL PRIMARY KEY NOT NULL;
 
 /*Remove column species*/
 ALTER TABLE animals DROP COLUMN species;
