@@ -13,15 +13,15 @@
  INSERT INTO animals(id,name,date_of_birth,escape_attempts,neutered,weight_kg,species) VALUES(11,'Ditto','2022-05-14',4,true,22,Pokemon);
 
  
- INSERT INTO owners(id,full_name,age) VALUES(1,'Sam Smith', 34);
- INSERT INTO owners(id,full_name,age) VALUES(2,'Jennifer Orwell', 19);
- INSERT INTO owners(id,full_name,age) VALUES(3,'Bob', 45);
- INSERT INTO owners(id,full_name,age) VALUES(4,'Melody Pond', 77);
- INSERT INTO owners(id,full_name,age) VALUES(5,'Dean Winchester', 14);
- INSERT INTO owners(id,full_name,age) VALUES(6,'Jodie Whitaker', 38);
+ INSERT INTO owners(full_name,age) VALUES('Sam Smith', 34);
+ INSERT INTO owners(full_name,age) VALUES('Jennifer Orwell', 19);
+ INSERT INTO owners(full_name,age) VALUES('Bob', 45);
+ INSERT INTO owners(full_name,age) VALUES('Melody Pond', 77);
+ INSERT INTO owners(full_name,age) VALUES('Dean Winchester', 14);
+ INSERT INTO owners(full_name,age) VALUES('Jodie Whitaker', 38);
 
- INSERT INTO species(id,name) VALUES(1,Pokemon);
- INSERT INTO species(id,name) VALUES(2,Digimon);
+ INSERT INTO species(name) VALUES(Pokemon);
+ INSERT INTO species(name) VALUES(Digimon);
 
 /*Modify your inserted animals so it includes the species_id value:
 If the name ends in "mon" it will be Digimon
@@ -34,3 +34,25 @@ WHERE name LIKE '%mon';
 UPDATE animals
 SET species_id = 1
 WHERE NOT name LIKE '%mon';
+
+/*Modify your inserted animals to include owner information (owner_id):*/
+UPDATE animals
+SET owner_id = (SELECT id FROM owners WHERE full_name = 'Sam Smith')
+WHERE name = 'Agumon';
+
+UPDATE animals
+SET owner_id = (SELECT id FROM owners WHERE full_name = 'Jennifer Orwell')
+WHERE name IN ('Gabumon', 'Pikachu');
+
+UPDATE animals
+SET owner_id = (SELECT id FROM owners WHERE full_name = 'Bob')
+WHERE name IN ('Devimon', 'Plantmon');
+
+UPDATE animals
+SET owner_id = (SELECT id FROM owners WHERE full_name = 'Melody Pond')
+WHERE name IN ('Charmander', 'Squirtle', 'Blossom');
+
+UPDATE animals
+SET owner_id = (SELECT id FROM owners WHERE full_name = 'Dean Winchester')
+WHERE name IN ('Angemon', 'Boarmon');
+
