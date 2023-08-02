@@ -44,11 +44,11 @@ CREATE TABLE specializations (
 );
 
 CREATE TABLE visits (
-
+  
+  id SERIAL PRIMARY KEY NOT NULL,
   vet_id INTEGER REFERENCES vets(id) NOT NULL,
   animal_id INTEGER REFERENCES animals(id) NOT NULL,
-  visit_date DATE,
-  PRIMARY KEY (vet_id, animal_id)
+  visit_date DATE
 
 );
 
