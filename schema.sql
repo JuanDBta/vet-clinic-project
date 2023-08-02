@@ -2,7 +2,7 @@
 
 CREATE TABLE owners (
    
-  id SERIAL PRIMARY KEY,
+  id SERIAL PRIMARY KEY NOT NULL,
   full_name TEXT,
   age DATE,
   
@@ -10,14 +10,14 @@ CREATE TABLE owners (
 
 CREATE TABLE species (
    
-  id SERIAL PRIMARY KEY,
+  id SERIAL PRIMARY KEY NOT NULL,
   name TEXT
   
 );
 
 CREATE TABLE animals (
    
-  id SERIAL PRIMARY KEY,
+  id SERIAL PRIMARY KEY NOT NULL,
   name TEXT,
   date_of_birth DATE,
   escape_attempts INTEGER,
