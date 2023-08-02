@@ -30,8 +30,8 @@ CREATE TABLE vets (
 
 id SERIAL PRIMARY KEY NOT NULL,
 name TEXT, 
-age: INTEGER,
-date_of_graduation: DATE
+age INTEGER,
+date_of_graduation DATE
 );
 
 CREATE TABLE specializations (
