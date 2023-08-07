@@ -80,3 +80,7 @@ ALTER COLUMN id SET NOT NULL;
 /*Modify id column in owners table to set NOT NULL*/
 ALTER TABLE owners
 ALTER COLUMN id SET NOT NULL;
+
+
+/*Add email columns to owners table*/
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
